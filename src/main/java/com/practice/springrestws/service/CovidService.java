@@ -30,51 +30,16 @@ public class CovidService {
     @Autowired
     RestTemplate restTemplate;
 
-    // @Autowired
-    // ObjectMapper objectMapper;
-
     @Value("${covid_summary_url}")
     private String covidSummaryURL;
 
     @PostConstruct
     public void initialize() {
         logger.info("Inside initialize method");
-        // restTemplate = new RestTemplate();
     }
 
-    /* public CovidSummaryCountries[] getCovidSummaryData() {
-        logger.debug("Inside getCovidSummaryData method");
-        ResponseEntity<String> covidSummaryResult = restTemplate.getForEntity(covidSummaryURL, String.class);
-        CovidSummaryCountries[] covidSummaryCountries = null;
-        ArrayList<CovidSummaryCountries> covidSummaryCountriesArrayList;
-
-        if (covidSummaryResult.getStatusCodeValue() == 200) {
-            logger.info("covidSummaryResult: " + covidSummaryResult.getBody());
-
-            try {
-                JsonNode jsonNodeRoot = objectMapper.readTree(covidSummaryResult.getBody());
-                JsonNode jsonNodeGlobal = jsonNodeRoot.path("Global");
-                // logger.info("jsonNodeGlobal: " + jsonNodeGlobal);
-                JsonNode jsonNodeCountries = jsonNodeRoot.path("Countries");
-                // logger.info("jsonNodeCountries: " + jsonNodeCountries);
-
-                covidSummaryCountriesArrayList = objectMapper.convertValue(jsonNodeCountries, ArrayList.class);
-                logger.info("covidSummaryCountriesArrayList: " + covidSummaryCountriesArrayList);
-
-                covidSummaryRepository.saveAll(covidSummaryCountriesArrayList);
-                logger.info("Data saved successfully");
-            } catch (JsonProcessingException e) {
-                e.printStackTrace();
-            }
-        } else {
-            logger.info("Status code is ==> " + covidSummaryResult.getStatusCodeValue());
-        }
-
-        return covidSummaryCountries;
-    } */
-
-    public ResponseEntity<CovidSummary> getCovidSummaryDataNew() {
-        logger.info("Inside getCovidSummaryDataNew method");
+    public ResponseEntity<CovidSummary> getCovidSummaryData() {
+        logger.info("Inside getCovidSummaryData method");
         ResponseEntity<CovidSummary> covidSummaryResponseEntity = restTemplate.getForEntity(covidSummaryURL, CovidSummary.class);
         CovidGlobalSummary covidGlobalSummary;
         List<CovidCountriesSummary> covidCountriesSummaryList;
@@ -105,13 +70,5 @@ public class CovidService {
 
         return covidSummaryResponseEntity;
     }
-
-    /* public void updateCovidSummaryData(CovidSummaryCountries covidSummaryCountries, int id) {
-        logger.debug("Inside updateCovidSummaryData method");
-
-        if (covidSummaryRepository.findById(id).isPresent()) {
-            Optional<CovidSummaryCountries> covidSummaryOld = covidSummaryRepository.findById(id);
-        }
-    } */
 
 }

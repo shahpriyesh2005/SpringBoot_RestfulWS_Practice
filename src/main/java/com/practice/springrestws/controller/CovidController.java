@@ -33,7 +33,7 @@ public class CovidController {
     @RequestMapping(value = "/summary", method = RequestMethod.GET)
     @ResponseBody ResponseEntity<CovidSummary> getCovidSummary() {
         logger.info("Inside getCovidSummary method");
-        return covidService.getCovidSummaryDataNew();
+        return covidService.getCovidSummaryData();
     }
 
     @RequestMapping(value = "/summary/global", method = RequestMethod.GET)
