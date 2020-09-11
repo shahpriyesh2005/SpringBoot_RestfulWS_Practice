@@ -1,0 +1,475 @@
+2020-09-11 18:58:40.411 DEBUG 19596 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: jdk.internal.loader.ClassLoaders$AppClassLoader@2626b418
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/D:/Priyesh/Study/Spring_Practice/spring-restws/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.practice.springrestws.model.CovidCountriesSummary
+		com.practice.springrestws.model.CovidGlobalSummary]
+	Mapping files names []
+	Properties []
+2020-09-11 18:58:40.428 DEBUG 19596 --- [task-1] o.h.i.internal.IntegratorServiceImpl     : Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2020-09-11 18:58:40.431 DEBUG 19596 --- [task-1] o.h.i.internal.IntegratorServiceImpl     : Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2020-09-11 18:58:40.434 DEBUG 19596 --- [task-1] o.h.i.internal.IntegratorServiceImpl     : Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2020-09-11 18:58:40.465  WARN 19596 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 18:58:40.486  INFO 19596 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-09-11 18:58:40.488 DEBUG 19596 --- [task-1] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-09-11 18:58:40.593 DEBUG 19596 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-09-11 18:58:40.636 DEBUG 19596 --- [task-1] o.hibernate.service.spi.ServiceBinding   : Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2020-09-11 18:58:40.647 DEBUG 19596 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 12 mappings in 'requestMappingHandlerMapping'
+2020-09-11 18:58:40.652 DEBUG 19596 --- [task-1] o.h.c.internal.RegionFactoryInitiator    : Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2020-09-11 18:58:40.653 DEBUG 19596 --- [task-1] o.h.c.internal.RegionFactoryInitiator    : Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2020-09-11 18:58:40.669  INFO 19596 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-11 18:58:40.674 DEBUG 19596 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-09-11 18:58:40.686 DEBUG 19596 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-09-11 18:58:40.710 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@6f5572f2
+2020-09-11 18:58:40.710 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@6f5572f2
+2020-09-11 18:58:40.710 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6f5572f2
+2020-09-11 18:58:40.710 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2062e312
+2020-09-11 18:58:40.711 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@7a63f6b5
+2020-09-11 18:58:40.712 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@32d24513
+2020-09-11 18:58:40.714 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@6b6ef427
+2020-09-11 18:58:40.715 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@6b6ef427
+2020-09-11 18:58:40.715 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6b6ef427
+2020-09-11 18:58:40.717 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@3b6b6c1e
+2020-09-11 18:58:40.718 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@3b6b6c1e
+2020-09-11 18:58:40.719 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3b6b6c1e
+2020-09-11 18:58:40.720 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@298690ab
+2020-09-11 18:58:40.720 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@298690ab
+2020-09-11 18:58:40.721 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@298690ab
+2020-09-11 18:58:40.722 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@69b9863b
+2020-09-11 18:58:40.723 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@69b9863b
+2020-09-11 18:58:40.723 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@69b9863b
+2020-09-11 18:58:40.731 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@1e1978a1
+2020-09-11 18:58:40.732 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@1e1978a1
+2020-09-11 18:58:40.732 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@1e1978a1
+2020-09-11 18:58:40.733 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@39948caf
+2020-09-11 18:58:40.734 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@39948caf
+2020-09-11 18:58:40.734 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@39948caf
+2020-09-11 18:58:40.735 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@2000fac6
+2020-09-11 18:58:40.736 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@2000fac6
+2020-09-11 18:58:40.736 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@2000fac6
+2020-09-11 18:58:40.737 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@c0fdc4
+2020-09-11 18:58:40.737 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@c0fdc4
+2020-09-11 18:58:40.741 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@c84c590
+2020-09-11 18:58:40.741 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@c84c590
+2020-09-11 18:58:40.742 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@579d770b
+2020-09-11 18:58:40.743 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@579d770b
+2020-09-11 18:58:40.743 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1af2ac32
+2020-09-11 18:58:40.744 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@5593ccce
+2020-09-11 18:58:40.745 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@5d29cf9b
+2020-09-11 18:58:40.745 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@5d29cf9b
+2020-09-11 18:58:40.747 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@2f7f891c
+2020-09-11 18:58:40.747 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@2f7f891c
+2020-09-11 18:58:40.749 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@71a8feb1
+2020-09-11 18:58:40.749 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@71a8feb1
+2020-09-11 18:58:40.751 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@24beb409
+2020-09-11 18:58:40.751 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@24beb409
+2020-09-11 18:58:40.752 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@ea8fb51
+2020-09-11 18:58:40.753 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@ea8fb51
+2020-09-11 18:58:40.753 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@34e87f8c
+2020-09-11 18:58:40.753 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@34e87f8c
+2020-09-11 18:58:40.756 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@49c8b438
+2020-09-11 18:58:40.756 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@49c8b438
+2020-09-11 18:58:40.757 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@5c846955
+2020-09-11 18:58:40.758 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@5c846955
+2020-09-11 18:58:40.759 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6fd62b6f
+2020-09-11 18:58:40.759 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6fd62b6f
+2020-09-11 18:58:40.762 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@4c6fd73
+2020-09-11 18:58:40.762 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@4c6fd73
+2020-09-11 18:58:40.764 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@dc59942
+2020-09-11 18:58:40.765 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@dc59942
+2020-09-11 18:58:40.765 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@7d470a
+2020-09-11 18:58:40.766 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7d470a
+2020-09-11 18:58:40.766 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7d470a
+2020-09-11 18:58:40.767 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5e1f5409
+2020-09-11 18:58:40.768 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@2df93bba
+2020-09-11 18:58:40.769 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2df93bba
+2020-09-11 18:58:40.769 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2df93bba
+2020-09-11 18:58:40.770 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@535afd73
+2020-09-11 18:58:40.771 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@7d989bad
+2020-09-11 18:58:40.772 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@21d1aa80
+2020-09-11 18:58:40.772 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@21d1aa80
+2020-09-11 18:58:40.773 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@26612e08
+2020-09-11 18:58:40.774 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@26612e08
+2020-09-11 18:58:40.775 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@7a6c46a4
+2020-09-11 18:58:40.775 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7a6c46a4
+2020-09-11 18:58:40.777 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@476b50b3
+2020-09-11 18:58:40.777 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@476b50b3
+2020-09-11 18:58:40.778 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@333b2f5b
+2020-09-11 18:58:40.778 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@333b2f5b
+2020-09-11 18:58:40.778 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@29692def
+2020-09-11 18:58:40.779 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@30fa4632
+2020-09-11 18:58:40.779 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@30fa4632
+2020-09-11 18:58:40.779 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@30fa4632
+2020-09-11 18:58:40.780 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@7a896537
+2020-09-11 18:58:40.780 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@7a896537
+2020-09-11 18:58:40.780 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@7a896537
+2020-09-11 18:58:40.781 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@35f1a54a
+2020-09-11 18:58:40.782 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@ee19815
+2020-09-11 18:58:40.783 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@60580022
+2020-09-11 18:58:40.783 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@60580022
+2020-09-11 18:58:40.783 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@60580022
+2020-09-11 18:58:40.784 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@301cde48
+2020-09-11 18:58:40.784 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@301cde48
+2020-09-11 18:58:40.784 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@301cde48
+2020-09-11 18:58:40.785 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@7f0ced24
+2020-09-11 18:58:40.786 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@2d60aa2b
+2020-09-11 18:58:40.787 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@5986c223
+2020-09-11 18:58:40.787 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5986c223
+2020-09-11 18:58:40.788 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@321cef4
+2020-09-11 18:58:40.788 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@753c3682
+2020-09-11 18:58:40.788 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@753c3682
+2020-09-11 18:58:40.790 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@3d493eee
+2020-09-11 18:58:40.790 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3d493eee
+2020-09-11 18:58:40.791 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3358431e
+2020-09-11 18:58:40.792 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4ca469de
+2020-09-11 18:58:40.793 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@5c65d2d4
+2020-09-11 18:58:40.794 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@31a40fab
+2020-09-11 18:58:40.796 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@31a40fab
+2020-09-11 18:58:40.796 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7caac324
+2020-09-11 18:58:40.796 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@3bca9ba9
+2020-09-11 18:58:40.796 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@5f722f74
+2020-09-11 18:58:40.796 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@20eca59e
+2020-09-11 18:58:40.796 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@af5f144
+2020-09-11 18:58:40.796 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@658d2460
+2020-09-11 18:58:40.797 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2b4abe2a
+2020-09-11 18:58:40.797 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6ecf2e88
+2020-09-11 18:58:40.808 DEBUG 19596 --- [task-1] o.h.boot.internal.BootstrapContextImpl   : Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@61b7ef3f] into BootstrapContext; was [null]
+2020-09-11 18:58:40.808 DEBUG 19596 --- [task-1] o.h.boot.internal.ClassLoaderAccessImpl  : ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@61b7ef3f) [was null]
+2020-09-11 18:58:40.809 DEBUG 19596 --- [task-1] o.h.boot.internal.BootstrapContextImpl   : Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@6605ae45] into BootstrapContext; was [null]
+2020-09-11 18:58:40.809 DEBUG 19596 --- [task-1] o.h.boot.internal.BootstrapContextImpl   : Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@37621c59] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@153d8856]
+2020-09-11 18:58:40.823 DEBUG 19596 --- [task-1] o.h.boot.internal.BootstrapContextImpl   : Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@61b7ef3f]
+2020-09-11 18:58:40.824 DEBUG 19596 --- [task-1] o.h.boot.internal.ClassLoaderAccessImpl  : ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@61b7ef3f]
+2020-09-11 18:58:40.832 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2020-09-11 18:58:40.833 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2020-09-11 18:58:40.834 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2020-09-11 18:58:40.834 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2020-09-11 18:58:40.835 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2020-09-11 18:58:40.836 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2020-09-11 18:58:40.836 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2020-09-11 18:58:40.837 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-09-11 18:58:40.838 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2020-09-11 18:58:40.839 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2020-09-11 18:58:40.840 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2020-09-11 18:58:40.840 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2020-09-11 18:58:40.840 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-09-11 18:58:40.841 DEBUG 19596 --- [task-1] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2020-09-11 18:58:41.003 DEBUG 19596 --- [task-1] o.h.e.j.e.i.JdbcEnvironmentInitiator     : Database ->
+       name : PostgreSQL
+    version : 12.0
+      major : 12
+      minor : 0
+2020-09-11 18:58:41.003 DEBUG 19596 --- [task-1] o.h.e.j.e.i.JdbcEnvironmentInitiator     : Driver ->
+       name : PostgreSQL JDBC Driver
+    version : 42.2.14
+      major : 42
+      minor : 2
+2020-09-11 18:58:41.003 DEBUG 19596 --- [task-1] o.h.e.j.e.i.JdbcEnvironmentInitiator     : JDBC version : 4.2
+2020-09-11 18:58:41.018  INFO 19596 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-09-11 18:58:41.036 DEBUG 19596 --- [task-1] o.h.e.j.env.spi.IdentifierHelperBuilder  : JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+2020-09-11 18:58:41.386 DEBUG 19596 --- [task-1] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000421: Disabling contextual LOB creation as hibernate.jdbc.lob.non_contextual_creation is true
+2020-09-11 18:58:41.388 DEBUG 19596 --- [task-1] o.h.boot.model.relational.Namespace      : Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2020-09-11 18:58:41.395 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@7171b63
+2020-09-11 18:58:41.395 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.PostgresUUIDType@7171b63
+2020-09-11 18:58:41.396 DEBUG 19596 --- [task-1] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@333b2f5b
+2020-09-11 18:58:41.397 DEBUG 19596 --- [task-1] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3b8b0985] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@c056741]
+2020-09-11 18:58:41.424 DEBUG 19596 --- [task-1] org.hibernate.cfg.AnnotationBinder       : Binding entity from annotated class: com.practice.springrestws.model.CovidCountriesSummary
+2020-09-11 18:58:41.451 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-09-11 18:58:41.457 DEBUG 19596 --- [task-1] o.h.cfg.annotations.EntityBinder         : Import with entity name CovidCountriesSummary
+2020-09-11 18:58:41.460 DEBUG 19596 --- [task-1] o.h.cfg.annotations.EntityBinder         : Bind entity com.practice.springrestws.model.CovidCountriesSummary on table covid_countries_summary
+2020-09-11 18:58:41.480 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.483 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property id with lazy=false
+2020-09-11 18:58:41.485 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:id]
+2020-09-11 18:58:41.486 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for id
+2020-09-11 18:58:41.491 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property id
+2020-09-11 18:58:41.495 DEBUG 19596 --- [task-1] org.hibernate.cfg.BinderHelper           : #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+2020-09-11 18:58:41.496 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=country, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.496 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property country with lazy=false
+2020-09-11 18:58:41.497 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:country]
+2020-09-11 18:58:41.497 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for country
+2020-09-11 18:58:41.497 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property country
+2020-09-11 18:58:41.499 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=country_code, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.499 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property countryCode with lazy=false
+2020-09-11 18:58:41.500 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:countryCode]
+2020-09-11 18:58:41.500 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for countryCode
+2020-09-11 18:58:41.500 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property countryCode
+2020-09-11 18:58:41.500 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=date, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.500 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property date with lazy=false
+2020-09-11 18:58:41.501 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:date]
+2020-09-11 18:58:41.501 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for date
+2020-09-11 18:58:41.501 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property date
+2020-09-11 18:58:41.501 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=new_confirmed, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.502 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property newConfirmed with lazy=false
+2020-09-11 18:58:41.502 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:newConfirmed]
+2020-09-11 18:58:41.502 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for newConfirmed
+2020-09-11 18:58:41.503 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property newConfirmed
+2020-09-11 18:58:41.503 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=new_deaths, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.503 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property newDeaths with lazy=false
+2020-09-11 18:58:41.503 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:newDeaths]
+2020-09-11 18:58:41.504 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for newDeaths
+2020-09-11 18:58:41.504 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property newDeaths
+2020-09-11 18:58:41.505 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=new_recovered, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.505 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property newRecovered with lazy=false
+2020-09-11 18:58:41.505 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:newRecovered]
+2020-09-11 18:58:41.505 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for newRecovered
+2020-09-11 18:58:41.505 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property newRecovered
+2020-09-11 18:58:41.505 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=slug, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.505 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property slug with lazy=false
+2020-09-11 18:58:41.505 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:slug]
+2020-09-11 18:58:41.506 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for slug
+2020-09-11 18:58:41.506 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property slug
+2020-09-11 18:58:41.506 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=total_confirmed, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.506 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property totalConfirmed with lazy=false
+2020-09-11 18:58:41.506 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:totalConfirmed]
+2020-09-11 18:58:41.506 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for totalConfirmed
+2020-09-11 18:58:41.506 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property totalConfirmed
+2020-09-11 18:58:41.506 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=total_deaths, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.506 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property totalDeaths with lazy=false
+2020-09-11 18:58:41.507 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:totalDeaths]
+2020-09-11 18:58:41.507 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for totalDeaths
+2020-09-11 18:58:41.507 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property totalDeaths
+2020-09-11 18:58:41.507 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_countries_summary), mappingColumn=total_recovered, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.507 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property totalRecovered with lazy=false
+2020-09-11 18:58:41.507 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidCountriesSummary:totalRecovered]
+2020-09-11 18:58:41.507 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for totalRecovered
+2020-09-11 18:58:41.507 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property totalRecovered
+2020-09-11 18:58:41.508 DEBUG 19596 --- [task-1] org.hibernate.cfg.AnnotationBinder       : Binding entity from annotated class: com.practice.springrestws.model.CovidGlobalSummary
+2020-09-11 18:58:41.508 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-09-11 18:58:41.508 DEBUG 19596 --- [task-1] o.h.cfg.annotations.EntityBinder         : Import with entity name CovidGlobalSummary
+2020-09-11 18:58:41.508 DEBUG 19596 --- [task-1] o.h.cfg.annotations.EntityBinder         : Bind entity com.practice.springrestws.model.CovidGlobalSummary on table covid_global_summary
+2020-09-11 18:58:41.509 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_global_summary), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.509 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property id with lazy=false
+2020-09-11 18:58:41.509 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidGlobalSummary:id]
+2020-09-11 18:58:41.510 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for id
+2020-09-11 18:58:41.510 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property id
+2020-09-11 18:58:41.510 DEBUG 19596 --- [task-1] org.hibernate.cfg.BinderHelper           : #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, , ...)
+2020-09-11 18:58:41.510 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_global_summary), mappingColumn=new_confirmed, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.510 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property newConfirmed with lazy=false
+2020-09-11 18:58:41.510 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidGlobalSummary:newConfirmed]
+2020-09-11 18:58:41.510 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for newConfirmed
+2020-09-11 18:58:41.510 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property newConfirmed
+2020-09-11 18:58:41.510 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_global_summary), mappingColumn=new_deaths, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.510 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property newDeaths with lazy=false
+2020-09-11 18:58:41.511 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidGlobalSummary:newDeaths]
+2020-09-11 18:58:41.511 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for newDeaths
+2020-09-11 18:58:41.511 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property newDeaths
+2020-09-11 18:58:41.512 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_global_summary), mappingColumn=new_recovered, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.512 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property newRecovered with lazy=false
+2020-09-11 18:58:41.512 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidGlobalSummary:newRecovered]
+2020-09-11 18:58:41.512 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for newRecovered
+2020-09-11 18:58:41.512 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property newRecovered
+2020-09-11 18:58:41.512 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_global_summary), mappingColumn=total_confirmed, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.512 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property totalConfirmed with lazy=false
+2020-09-11 18:58:41.512 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidGlobalSummary:totalConfirmed]
+2020-09-11 18:58:41.512 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for totalConfirmed
+2020-09-11 18:58:41.512 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property totalConfirmed
+2020-09-11 18:58:41.513 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_global_summary), mappingColumn=total_deaths, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.513 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property totalDeaths with lazy=false
+2020-09-11 18:58:41.513 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidGlobalSummary:totalDeaths]
+2020-09-11 18:58:41.513 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for totalDeaths
+2020-09-11 18:58:41.513 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property totalDeaths
+2020-09-11 18:58:41.513 DEBUG 19596 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(covid_global_summary), mappingColumn=total_recovered, insertable=true, updatable=true, unique=false}
+2020-09-11 18:58:41.513 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property totalRecovered with lazy=false
+2020-09-11 18:58:41.513 DEBUG 19596 --- [task-1] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [com.practice.springrestws.model.CovidGlobalSummary:totalRecovered]
+2020-09-11 18:58:41.513 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for totalRecovered
+2020-09-11 18:58:41.513 DEBUG 19596 --- [task-1] o.h.cfg.annotations.PropertyBinder       : Building property totalRecovered
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for id
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for country
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for countryCode
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for date
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for newConfirmed
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for newDeaths
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for newRecovered
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for slug
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for totalConfirmed
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for totalDeaths
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for totalRecovered
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for id
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for newConfirmed
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for newDeaths
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for newRecovered
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for totalConfirmed
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for totalDeaths
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for totalRecovered
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] org.hibernate.mapping.PrimaryKey         : Forcing column [id] to be non-null as it is part of the primary key for table [covid_countries_summary]
+2020-09-11 18:58:41.514 DEBUG 19596 --- [task-1] org.hibernate.mapping.PrimaryKey         : Forcing column [id] to be non-null as it is part of the primary key for table [covid_global_summary]
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] o.hibernate.internal.SessionFactoryImpl  : Building session factory
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : SessionFactory name : null
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Automatic flush during beforeCompletion(): enabled
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Automatic session close at end of transaction: disabled
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Statistics: disabled
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Deleted entity synthetic identifier rollback: disabled
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Default entity-mode: pojo
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Allow initialization of lazy state outside session : disabled
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Using BatchFetchStyle : LEGACY
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Default batch fetch size: -1
+2020-09-11 18:58:41.552 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Maximum outer join fetch depth: null
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Default null ordering: NONE
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Order SQL updates by primary key: disabled
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Order SQL inserts for batching: disabled
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : multi-tenancy strategy : NONE
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : JTA Track by Thread: enabled
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Query language substitutions: {}
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Named query checking : enabled
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Second-level cache: disabled
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Second-level query cache: disabled
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Second-level query cache factory: null
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Second-level cache region prefix: null
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Optimize second-level cache for minimal puts: disabled
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Structured second-level cache entries: disabled
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Second-level cache direct-reference entries: disabled
+2020-09-11 18:58:41.553 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Automatic eviction of collection cache: disabled
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : JDBC batch size: 15
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : JDBC batch updates for versioned data: enabled
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Scrollable result sets: enabled
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Wrap result sets: disabled
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : JDBC3 getGeneratedKeys(): enabled
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : JDBC result set fetch size: null
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Connection release mode: ON_CLOSE
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : Generate SQL with comments: disabled
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : JPA compliance - query : disabled
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : JPA compliance - closed-handling : disabled
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : JPA compliance - lists : disabled
+2020-09-11 18:58:41.554 DEBUG 19596 --- [task-1] org.hibernate.cfg.Settings               : JPA compliance - transactions : disabled
+2020-09-11 18:58:41.607 DEBUG 19596 --- [task-1] o.hibernate.internal.SessionFactoryImpl  : Session factory constructed with filter configurations : {}
+2020-09-11 18:58:41.607 DEBUG 19596 --- [task-1] o.hibernate.internal.SessionFactoryImpl  : Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=12, sun.cpu.isalist=amd64, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@5aad0b57, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.PostgreSQL95Dialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=D:\Priyesh\Study\Spring_Practice\spring-restws\target\classes;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.3.1.RELEASE\spring-boot-starter-web-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter\2.3.1.RELEASE\spring-boot-starter-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot\2.3.1.RELEASE\spring-boot-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.3.1.RELEASE\spring-boot-autoconfigure-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.3.1.RELEASE\spring-boot-starter-logging-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\DELL\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\DELL\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\DELL\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\DELL\.m2\repository\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.3.1.RELEASE\spring-boot-starter-json-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.0\jackson-databind-2.11.0.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.0\jackson-annotations-2.11.0.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.0\jackson-core-2.11.0.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.0\jackson-datatype-jdk8-2.11.0.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.0\jackson-datatype-jsr310-2.11.0.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.0\jackson-module-parameter-names-2.11.0.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.3.1.RELEASE\spring-boot-starter-tomcat-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.36\tomcat-embed-core-9.0.36.jar;C:\Users\DELL\.m2\repository\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar;C:\Users\DELL\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.36\tomcat-embed-websocket-9.0.36.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-web\5.2.7.RELEASE\spring-web-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-beans\5.2.7.RELEASE\spring-beans-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-webmvc\5.2.7.RELEASE\spring-webmvc-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-aop\5.2.7.RELEASE\spring-aop-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-context\5.2.7.RELEASE\spring-context-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-expression\5.2.7.RELEASE\spring-expression-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\DELL\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\DELL\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.10.11\byte-buddy-1.10.11.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-core\5.2.7.RELEASE\spring-core-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-jcl\5.2.7.RELEASE\spring-jcl-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.3.1.RELEASE\spring-boot-starter-data-jpa-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.3.1.RELEASE\spring-boot-starter-aop-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\org\aspectj\aspectjweaver\1.9.5\aspectjweaver-1.9.5.jar;C:\Users\DELL\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.3.1.RELEASE\spring-boot-starter-jdbc-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-jdbc\5.2.7.RELEASE\spring-jdbc-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar;C:\Users\DELL\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar;C:\Users\DELL\.m2\repository\org\hibernate\hibernate-core\5.4.17.Final\hibernate-core-5.4.17.Final.jar;C:\Users\DELL\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\DELL\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\DELL\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\DELL\.m2\repository\org\jboss\jandex\2.1.3.Final\jandex-2.1.3.Final.jar;C:\Users\DELL\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\DELL\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\DELL\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\DELL\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.3\jaxb-runtime-2.3.3.jar;C:\Users\DELL\.m2\repository\org\glassfish\jaxb\txw2\2.3.3\txw2-2.3.3.jar;C:\Users\DELL\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.11\istack-commons-runtime-3.0.11.jar;C:\Users\DELL\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\DELL\.m2\repository\org\springframework\data\spring-data-jpa\2.3.1.RELEASE\spring-data-jpa-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\data\spring-data-commons\2.3.1.RELEASE\spring-data-commons-2.3.1.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-orm\5.2.7.RELEASE\spring-orm-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-tx\5.2.7.RELEASE\spring-tx-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\springframework\spring-aspects\5.2.7.RELEASE\spring-aspects-5.2.7.RELEASE.jar;C:\Users\DELL\.m2\repository\org\postgresql\postgresql\42.2.14\postgresql-42.2.14.jar;C:\Users\DELL\.m2\repository\org\json\json\20200518\json-20200518.jar, hibernate.jdbc.lob.non_contextual_creation=true, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=https://java.oracle.com/, catalina.useNaming=false, user.timezone=Europe/London, java.vm.specification.version=12, os.name=Windows 10, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=IN, sun.boot.library.path=C:\Program Files\Java\jdk-12.0.2\bin, sun.java.command=com.practice.springrestws.SpringRestWsApplication, spring.application.admin.enabled=true, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@460e7e7f, com.sun.management.jmxremote=, javax.persistence.sharedCache.mode=UNSPECIFIED, jdk.debug=release, spring.liveBeansView.mbeanDomain=, sun.cpu.endian=little, user.home=C:\Users\DELL, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2019-07-16, java.home=C:\Program Files\Java\jdk-12.0.2, file.separator=\, spring.output.ansi.enabled=always, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.awt.headless=true, hibernate.hbm2ddl.auto=create-drop, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=12.0.2+10, user.name=DELL, spring.jmx.enabled=true, path.separator=;, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, LOG_FILE=spring-restws.log, java.vendor.url.bug=https://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\DELL\AppData\Local\Temp\, catalina.home=C:\Users\DELL\AppData\Local\Temp\tomcat.4064224416972750850.8080, java.version=12.0.2, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=D:\Priyesh\Study\Spring_Practice\spring-restws, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=19596, sun.os.patch.level=, catalina.base=C:\Users\DELL\AppData\Local\Temp\tomcat.4064224416972750850.8080, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@186e8454, java.library.path=C:\Program Files\Java\jdk-12.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-12.0.2\bin;D:\Anchal\Office_Selenium\spc;C:\Program Files\Amazon\AWSCLIV2\;E:\Setup\Curl\curl-7.71.1-win64-mingw\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Users\DELL\AppData\Local\GitHubDesktop\bin;C:\Program Files\PostgreSQL\12\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, sharing, java.vm.version=12.0.2+10, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.randomIDs=true, sun.io.unicode.encoding=UnicodeLittle, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=HikariDataSource (HikariPool-1), java.class.version=56.0}
+2020-09-11 18:58:41.620 DEBUG 19596 --- [task-1] org.hibernate.secure.spi.JaccIntegrator  : Skipping JACC integration as it was not enabled
+2020-09-11 18:58:41.621 DEBUG 19596 --- [task-1] o.hibernate.internal.SessionFactoryImpl  : Instantiated session factory
+2020-09-11 18:58:41.621 DEBUG 19596 --- [task-1] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3b8b0985] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@49781a92]
+2020-09-11 18:58:41.650 DEBUG 19596 --- [task-1] o.h.boot.internal.ClassLoaderAccessImpl  : Not known whether passed class name [com.practice.springrestws.model.CovidGlobalSummary] is safe
+2020-09-11 18:58:41.650 DEBUG 19596 --- [task-1] o.h.boot.internal.ClassLoaderAccessImpl  : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.practice.springrestws.model.CovidGlobalSummary
+2020-09-11 18:58:41.669 DEBUG 19596 --- [task-1] o.h.boot.internal.ClassLoaderAccessImpl  : Not known whether passed class name [com.practice.springrestws.model.CovidGlobalSummary] is safe
+2020-09-11 18:58:41.669 DEBUG 19596 --- [task-1] o.h.boot.internal.ClassLoaderAccessImpl  : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.practice.springrestws.model.CovidGlobalSummary
+2020-09-11 18:58:41.915 DEBUG 19596 --- [task-1] o.h.boot.internal.ClassLoaderAccessImpl  : Not known whether passed class name [com.practice.springrestws.model.CovidCountriesSummary] is safe
+2020-09-11 18:58:41.915 DEBUG 19596 --- [task-1] o.h.boot.internal.ClassLoaderAccessImpl  : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.practice.springrestws.model.CovidCountriesSummary
+2020-09-11 18:58:41.916 DEBUG 19596 --- [task-1] o.h.boot.internal.ClassLoaderAccessImpl  : Not known whether passed class name [com.practice.springrestws.model.CovidCountriesSummary] is safe
+2020-09-11 18:58:41.916 DEBUG 19596 --- [task-1] o.h.boot.internal.ClassLoaderAccessImpl  : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.practice.springrestws.model.CovidCountriesSummary
+2020-09-11 18:58:41.939 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     : Static SQL for entity: com.practice.springrestws.model.CovidGlobalSummary
+2020-09-11 18:58:41.939 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     :  Version select: select id from covid_global_summary where id =?
+2020-09-11 18:58:41.939 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     :  Snapshot select: select covidgloba_.id, covidgloba_.new_confirmed as new_conf2_1_, covidgloba_.new_deaths as new_deat3_1_, covidgloba_.new_recovered as new_reco4_1_, covidgloba_.total_confirmed as total_co5_1_, covidgloba_.total_deaths as total_de6_1_, covidgloba_.total_recovered as total_re7_1_ from covid_global_summary covidgloba_ where covidgloba_.id=?
+2020-09-11 18:58:41.939 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     :  Insert 0: insert into covid_global_summary (new_confirmed, new_deaths, new_recovered, total_confirmed, total_deaths, total_recovered, id) values (?, ?, ?, ?, ?, ?, ?)
+2020-09-11 18:58:41.939 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     :  Update 0: update covid_global_summary set new_confirmed=?, new_deaths=?, new_recovered=?, total_confirmed=?, total_deaths=?, total_recovered=? where id=?
+2020-09-11 18:58:41.939 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     :  Delete 0: delete from covid_global_summary where id=?
+2020-09-11 18:58:41.970 DEBUG 19596 --- [task-1] o.h.l.p.b.i.spaces.QuerySpacesImpl       : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@222ae97b]
+2020-09-11 18:58:41.972 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newConfirmed
+2020-09-11 18:58:41.972 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newDeaths
+2020-09-11 18:58:41.972 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newRecovered
+2020-09-11 18:58:41.972 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalConfirmed
+2020-09-11 18:58:41.972 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalDeaths
+2020-09-11 18:58:41.972 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalRecovered
+2020-09-11 18:58:41.972 DEBUG 19596 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2020-09-11 18:58:41.980 DEBUG 19596 --- [task-1] h.l.p.e.i.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2020-09-11 18:58:41.985 DEBUG 19596 --- [task-1] o.h.l.p.build.spi.LoadPlanTreePrinter    : LoadPlan(entity=com.practice.springrestws.model.CovidGlobalSummary)
+    - Returns
+       - EntityReturnImpl(entity=com.practice.springrestws.model.CovidGlobalSummary, querySpaceUid=<gen:0>, path=com.practice.springrestws.model.CovidGlobalSummary)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.practice.springrestws.model.CovidGlobalSummary)
+          - SQL table alias mapping - covidgloba0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2020-09-11 18:58:41.993 DEBUG 19596 --- [task-1] o.h.loader.entity.plan.EntityLoader      : Static select for entity com.practice.springrestws.model.CovidGlobalSummary [NONE]: select covidgloba0_.id as id1_1_0_, covidgloba0_.new_confirmed as new_conf2_1_0_, covidgloba0_.new_deaths as new_deat3_1_0_, covidgloba0_.new_recovered as new_reco4_1_0_, covidgloba0_.total_confirmed as total_co5_1_0_, covidgloba0_.total_deaths as total_de6_1_0_, covidgloba0_.total_recovered as total_re7_1_0_ from covid_global_summary covidgloba0_ where covidgloba0_.id=?
+2020-09-11 18:58:41.993 DEBUG 19596 --- [task-1] o.h.l.p.b.i.spaces.QuerySpacesImpl       : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1738fe98]
+2020-09-11 18:58:41.993 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newConfirmed
+2020-09-11 18:58:41.993 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newDeaths
+2020-09-11 18:58:41.993 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newRecovered
+2020-09-11 18:58:41.993 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalConfirmed
+2020-09-11 18:58:41.993 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalDeaths
+2020-09-11 18:58:41.993 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalRecovered
+2020-09-11 18:58:41.993 DEBUG 19596 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2020-09-11 18:58:41.994 DEBUG 19596 --- [task-1] h.l.p.e.i.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2020-09-11 18:58:41.994 DEBUG 19596 --- [task-1] o.h.l.p.build.spi.LoadPlanTreePrinter    : LoadPlan(entity=com.practice.springrestws.model.CovidGlobalSummary)
+    - Returns
+       - EntityReturnImpl(entity=com.practice.springrestws.model.CovidGlobalSummary, querySpaceUid=<gen:0>, path=com.practice.springrestws.model.CovidGlobalSummary)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.practice.springrestws.model.CovidGlobalSummary)
+          - SQL table alias mapping - covidgloba0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+2020-09-11 18:58:41.994 DEBUG 19596 --- [task-1] o.h.loader.entity.plan.EntityLoader      : Static select for entity com.practice.springrestws.model.CovidGlobalSummary [READ]: select covidgloba0_.id as id1_1_0_, covidgloba0_.new_confirmed as new_conf2_1_0_, covidgloba0_.new_deaths as new_deat3_1_0_, covidgloba0_.new_recovered as new_reco4_1_0_, covidgloba0_.total_confirmed as total_co5_1_0_, covidgloba0_.total_deaths as total_de6_1_0_, covidgloba0_.total_recovered as total_re7_1_0_ from covid_global_summary covidgloba0_ where covidgloba0_.id=?
+2020-09-11 18:58:42.002 DEBUG 19596 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_MERGE on entity com.practice.springrestws.model.CovidGlobalSummary: select covidgloba0_.id as id1_1_0_, covidgloba0_.new_confirmed as new_conf2_1_0_, covidgloba0_.new_deaths as new_deat3_1_0_, covidgloba0_.new_recovered as new_reco4_1_0_, covidgloba0_.total_confirmed as total_co5_1_0_, covidgloba0_.total_deaths as total_de6_1_0_, covidgloba0_.total_recovered as total_re7_1_0_ from covid_global_summary covidgloba0_ where covidgloba0_.id=?
+2020-09-11 18:58:42.002 DEBUG 19596 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_REFRESH on entity com.practice.springrestws.model.CovidGlobalSummary: select covidgloba0_.id as id1_1_0_, covidgloba0_.new_confirmed as new_conf2_1_0_, covidgloba0_.new_deaths as new_deat3_1_0_, covidgloba0_.new_recovered as new_reco4_1_0_, covidgloba0_.total_confirmed as total_co5_1_0_, covidgloba0_.total_deaths as total_de6_1_0_, covidgloba0_.total_recovered as total_re7_1_0_ from covid_global_summary covidgloba0_ where covidgloba0_.id=?
+2020-09-11 18:58:42.002 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     : Static SQL for entity: com.practice.springrestws.model.CovidCountriesSummary
+2020-09-11 18:58:42.002 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     :  Version select: select id from covid_countries_summary where id =?
+2020-09-11 18:58:42.002 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     :  Snapshot select: select covidcount_.id, covidcount_.country as country2_0_, covidcount_.country_code as country_3_0_, covidcount_.date as date4_0_, covidcount_.new_confirmed as new_conf5_0_, covidcount_.new_deaths as new_deat6_0_, covidcount_.new_recovered as new_reco7_0_, covidcount_.slug as slug8_0_, covidcount_.total_confirmed as total_co9_0_, covidcount_.total_deaths as total_d10_0_, covidcount_.total_recovered as total_r11_0_ from covid_countries_summary covidcount_ where covidcount_.id=?
+2020-09-11 18:58:42.002 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     :  Insert 0: insert into covid_countries_summary (country, country_code, date, new_confirmed, new_deaths, new_recovered, slug, total_confirmed, total_deaths, total_recovered, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2020-09-11 18:58:42.002 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     :  Update 0: update covid_countries_summary set country=?, country_code=?, date=?, new_confirmed=?, new_deaths=?, new_recovered=?, slug=?, total_confirmed=?, total_deaths=?, total_recovered=? where id=?
+2020-09-11 18:58:42.002 DEBUG 19596 --- [task-1] o.h.p.entity.AbstractEntityPersister     :  Delete 0: delete from covid_countries_summary where id=?
+2020-09-11 18:58:42.002 DEBUG 19596 --- [task-1] o.h.l.p.b.i.spaces.QuerySpacesImpl       : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@27958e2a]
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : country
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : countryCode
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : date
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newConfirmed
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newDeaths
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newRecovered
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : slug
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalConfirmed
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalDeaths
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalRecovered
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] h.l.p.e.i.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.l.p.build.spi.LoadPlanTreePrinter    : LoadPlan(entity=com.practice.springrestws.model.CovidCountriesSummary)
+    - Returns
+       - EntityReturnImpl(entity=com.practice.springrestws.model.CovidCountriesSummary, querySpaceUid=<gen:0>, path=com.practice.springrestws.model.CovidCountriesSummary)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.practice.springrestws.model.CovidCountriesSummary)
+          - SQL table alias mapping - covidcount0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.loader.entity.plan.EntityLoader      : Static select for entity com.practice.springrestws.model.CovidCountriesSummary [NONE]: select covidcount0_.id as id1_0_0_, covidcount0_.country as country2_0_0_, covidcount0_.country_code as country_3_0_0_, covidcount0_.date as date4_0_0_, covidcount0_.new_confirmed as new_conf5_0_0_, covidcount0_.new_deaths as new_deat6_0_0_, covidcount0_.new_recovered as new_reco7_0_0_, covidcount0_.slug as slug8_0_0_, covidcount0_.total_confirmed as total_co9_0_0_, covidcount0_.total_deaths as total_d10_0_0_, covidcount0_.total_recovered as total_r11_0_0_ from covid_countries_summary covidcount0_ where covidcount0_.id=?
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.l.p.b.i.spaces.QuerySpacesImpl       : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@17070cea]
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : country
+2020-09-11 18:58:42.003 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : countryCode
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : date
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newConfirmed
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newDeaths
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : newRecovered
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : slug
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalConfirmed
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalDeaths
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : totalRecovered
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] h.l.p.e.i.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] o.h.l.p.build.spi.LoadPlanTreePrinter    : LoadPlan(entity=com.practice.springrestws.model.CovidCountriesSummary)
+    - Returns
+       - EntityReturnImpl(entity=com.practice.springrestws.model.CovidCountriesSummary, querySpaceUid=<gen:0>, path=com.practice.springrestws.model.CovidCountriesSummary)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.practice.springrestws.model.CovidCountriesSummary)
+          - SQL table alias mapping - covidcount0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] o.h.loader.entity.plan.EntityLoader      : Static select for entity com.practice.springrestws.model.CovidCountriesSummary [READ]: select covidcount0_.id as id1_0_0_, covidcount0_.country as country2_0_0_, covidcount0_.country_code as country_3_0_0_, covidcount0_.date as date4_0_0_, covidcount0_.new_confirmed as new_conf5_0_0_, covidcount0_.new_deaths as new_deat6_0_0_, covidcount0_.new_recovered as new_reco7_0_0_, covidcount0_.slug as slug8_0_0_, covidcount0_.total_confirmed as total_co9_0_0_, covidcount0_.total_deaths as total_d10_0_0_, covidcount0_.total_recovered as total_r11_0_0_ from covid_countries_summary covidcount0_ where covidcount0_.id=?
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_MERGE on entity com.practice.springrestws.model.CovidCountriesSummary: select covidcount0_.id as id1_0_0_, covidcount0_.country as country2_0_0_, covidcount0_.country_code as country_3_0_0_, covidcount0_.date as date4_0_0_, covidcount0_.new_confirmed as new_conf5_0_0_, covidcount0_.new_deaths as new_deat6_0_0_, covidcount0_.new_recovered as new_reco7_0_0_, covidcount0_.slug as slug8_0_0_, covidcount0_.total_confirmed as total_co9_0_0_, covidcount0_.total_deaths as total_d10_0_0_, covidcount0_.total_recovered as total_r11_0_0_ from covid_countries_summary covidcount0_ where covidcount0_.id=?
+2020-09-11 18:58:42.004 DEBUG 19596 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_REFRESH on entity com.practice.springrestws.model.CovidCountriesSummary: select covidcount0_.id as id1_0_0_, covidcount0_.country as country2_0_0_, covidcount0_.country_code as country_3_0_0_, covidcount0_.date as date4_0_0_, covidcount0_.new_confirmed as new_conf5_0_0_, covidcount0_.new_deaths as new_deat6_0_0_, covidcount0_.new_recovered as new_reco7_0_0_, covidcount0_.slug as slug8_0_0_, covidcount0_.total_confirmed as total_co9_0_0_, covidcount0_.total_deaths as total_d10_0_0_, covidcount0_.total_recovered as total_r11_0_0_ from covid_countries_summary covidcount0_ where covidcount0_.id=?
+2020-09-11 18:58:42.037 DEBUG 19596 --- [task-1] org.hibernate.SQL                        : drop table if exists covid_countries_summary cascade
+2020-09-11 18:58:42.058 DEBUG 19596 --- [task-1] org.hibernate.SQL                        : drop table if exists covid_global_summary cascade
+2020-09-11 18:58:42.064 DEBUG 19596 --- [task-1] org.hibernate.SQL                        : drop sequence if exists hibernate_sequence
+2020-09-11 18:58:42.069 DEBUG 19596 --- [task-1] org.hibernate.SQL                        : create sequence hibernate_sequence start 1 increment 1
+2020-09-11 18:58:42.084 DEBUG 19596 --- [task-1] org.hibernate.SQL                        : create table covid_countries_summary (id int4 not null, country varchar(255), country_code varchar(255), date varchar(255), new_confirmed int4, new_deaths int4, new_recovered int4, slug varchar(255), total_confirmed int4, total_deaths int4, total_recovered int4, primary key (id))
+2020-09-11 18:58:42.098 DEBUG 19596 --- [task-1] org.hibernate.SQL                        : create table covid_global_summary (id int4 not null, new_confirmed int4, new_deaths int4, new_recovered int4, total_confirmed int4, total_deaths int4, total_recovered int4, primary key (id))
+2020-09-11 18:58:42.104  INFO 19596 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-11 18:58:42.105 DEBUG 19596 --- [task-1] o.h.query.spi.NamedQueryRepository       : Checking 0 named HQL queries
+2020-09-11 18:58:42.105 DEBUG 19596 --- [task-1] o.h.query.spi.NamedQueryRepository       : Checking 0 named SQL queries
+2020-09-11 18:58:42.111 DEBUG 19596 --- [task-1] o.h.internal.SessionFactoryRegistry      : Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@2b9da777
+2020-09-11 18:58:42.111 DEBUG 19596 --- [task-1] o.h.internal.SessionFactoryRegistry      : Registering SessionFactory: 5c8160cf-e77b-4890-9256-84576a81161e (<unnamed>)
+2020-09-11 18:58:42.111 DEBUG 19596 --- [task-1] o.h.internal.SessionFactoryRegistry      : Not binding SessionFactory to JNDI, no JNDI name configured
+2020-09-11 18:58:42.204 DEBUG 19596 --- [main] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=false]
+2020-09-11 19:01:27.080  INFO 24124 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-11 19:01:27.118  INFO 24124 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-09-11 19:01:27.123  WARN 24124 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-11 19:01:27.214  INFO 24124 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-11 19:01:27.416  INFO 24124 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-09-11 19:01:28.256  INFO 24124 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
